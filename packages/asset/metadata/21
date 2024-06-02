@@ -1,0 +1,11 @@
+{
+    "description": "Elf ERC-721 character token from Forgotten Lands collection (Silver tier)",   
+    "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/21",
+    "name": "Elf",
+    "attributes": [
+        {
+            "trait_type": "Tier",
+            "value": "Silver"
+        }
+    ]
+}

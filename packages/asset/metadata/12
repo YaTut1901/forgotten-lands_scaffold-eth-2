@@ -1,0 +1,11 @@
+{
+    "description": "Demon ERC-721 character token from Forgotten Lands collection (Wooden tier)",   
+    "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/12",
+    "name": "Demon",
+    "attributes": [
+        {
+            "trait_type": "Tier",
+            "value": "Wooden"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "description": "Barbarian ERC-721 character token from Forgotten Lands collection (Regular tier)",   
+    "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/7",
+    "name": "Barbarian",
+    "attributes": [
+        {
+            "trait_type": "Tier",
+            "value": "Regular"
+        }
+    ]
+}
