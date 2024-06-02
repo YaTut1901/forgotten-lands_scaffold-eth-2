@@ -2,10 +2,20 @@
     "description": "Dwarf ERC-721 character token from Forgotten Lands collection (Wooden tier)",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/16",
     "name": "Dwarf",
-    "attributes": [
-        {
-            "trait_type": "Tier",
+    "properties": {
+        "tier": {
+            "name": "Tier",
             "value": "Wooden"
+        },
+        "staking_resource": {
+            "name": "Staking Resource",
+            "value": 2,
+            "display_value": "Mythril"
+        },
+        "staking_income": {
+            "name": "Staking Income / 24 hours",
+            "value": 2,
+            "display_value": "2"
         }
-    ]
+    }
 }

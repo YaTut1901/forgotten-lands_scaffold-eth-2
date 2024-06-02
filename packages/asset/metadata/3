@@ -1,5 +1,9 @@
 {
     "description": "Platinum ERC-20 token from Forgotten Lands collection",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/3", 
-    "name": "Platinum"
+    "name": "Platinum",
+    "forge_properties": {
+        "types": [0, 1],
+        "amounts": [1, 1]
+    }
 }

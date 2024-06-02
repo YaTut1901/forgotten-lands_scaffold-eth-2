@@ -1,5 +1,9 @@
 {
     "description": "Holy matter ERC-20 token from Forgotten Lands collection",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/6", 
-    "name": "Holy matter"
+    "name": "Holy matter",
+    "forge_properties": {
+        "types": [0, 1, 2],
+        "amounts": [1, 1, 1]
+    }
 }

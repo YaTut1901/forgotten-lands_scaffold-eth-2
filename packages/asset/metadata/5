@@ -1,5 +1,9 @@
 {
     "description": "Shining gold ERC-20 token from Forgotten Lands collection",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/5", 
-    "name": "Shining gold"
+    "name": "Shining gold",
+    "forge_properties": {
+        "types": [1, 2],
+        "amounts": [1, 1]
+    }
 }

@@ -2,10 +2,20 @@
     "description": "Warrior ERC-721 character token from Forgotten Lands collection (Silver tier)",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/41",
     "name": "Warrior",
-    "attributes": [
-        {
-            "trait_type": "Tier",
+    "properties": {
+        "tier": {
+            "name": "Tier",
             "value": "Silver"
+        },
+        "staking_resource": {
+            "name": "Staking Resource",
+            "value": 1,
+            "display_value": "Gold"
+        },
+        "staking_income": {
+            "name": "Staking Income / 24 hours",
+            "value": 15,
+            "display_value": "15"
         }
-    ]
+    }
 }

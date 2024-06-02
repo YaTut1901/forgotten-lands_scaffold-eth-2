@@ -2,10 +2,24 @@
     "description": "Barbarian ERC-721 character token from Forgotten Lands collection (Regular tier)",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/7",
     "name": "Barbarian",
-    "attributes": [
-        {
-            "trait_type": "Tier",
+    "properties": {
+        "tier": {
+            "name": "Tier",
             "value": "Regular"
+        },
+        "staking_resource": {
+            "name": "Staking Resource",
+            "value": 0,
+            "display_value": "Silver"
+        },
+        "staking_income": {
+            "name": "Staking Income / 24 hours",
+            "value": 1,
+            "display_value": "1"
         }
-    ]
+    },
+    "forge_properties": {
+        "types": [0],
+        "amounts": [10]
+    }
 }

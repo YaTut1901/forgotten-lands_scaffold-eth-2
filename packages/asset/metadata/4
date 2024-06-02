@@ -1,5 +1,9 @@
 {
     "description": "Shining silver ERC-20 token from Forgotten Lands collection",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/4", 
-    "name": "Shining silver"
+    "name": "Shining silver",
+    "forge_properties": {
+        "types": [0, 2],
+        "amounts": [1, 1]
+    }
 }

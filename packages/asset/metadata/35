@@ -2,10 +2,24 @@
     "description": "Monk ERC-721 character token from Forgotten Lands collection (Regular tier)",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/35",
     "name": "Monk",
-    "attributes": [
-        {
-            "trait_type": "Tier",
+    "properties": {
+        "tier": {
+            "name": "Tier",
             "value": "Regular"
+        },
+        "staking_resource": {
+            "name": "Staking Resource",
+            "value": 2,
+            "display_value": "Mythril"
+        },
+        "staking_income": {
+            "name": "Staking Income / 24 hours",
+            "value": 5,
+            "display_value": "5"
         }
-    ]
+    },
+    "forge_properties": {
+        "types": [0, 1, 2],
+        "amounts": [20, 10, 10]
+    }
 }

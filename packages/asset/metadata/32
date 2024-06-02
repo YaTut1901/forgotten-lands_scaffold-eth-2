@@ -2,10 +2,20 @@
     "description": "Lizardman ERC-721 character token from Forgotten Lands collection (Wooden tier)",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/32",
     "name": "Lizardman",
-    "attributes": [
-        {
-            "trait_type": "Tier",
+    "properties": {
+        "tier": {
+            "name": "Tier",
             "value": "Wooden"
+        },
+        "staking_resource": {
+            "name": "Staking Resource",
+            "value": 0,
+            "display_value": "Silver"
+        },
+        "staking_income": {
+            "name": "Staking Income / 24 hours",
+            "value": 8,
+            "display_value": "8"
         }
-    ]
+    }
 }

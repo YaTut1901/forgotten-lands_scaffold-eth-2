@@ -2,10 +2,24 @@
     "description": "Elf ERC-721 character token from Forgotten Lands collection (Regular tier)",   
     "image": "ipfs://QmdJQKDMTAfXLW97XHB9rrQGpQXbm8ev3tDoy7QSKd2fx2/19",
     "name": "Elf",
-    "attributes": [
-        {
-            "trait_type": "Tier",
+    "properties": {
+        "tier": {
+            "name": "Tier",
             "value": "Regular"
+        },
+        "staking_resource": {
+            "name": "Staking Resource",
+            "value": 1,
+            "display_value": "Gold"
+        },
+        "staking_income": {
+            "name": "Staking Income / 24 hours",
+            "value": 2,
+            "display_value": "2"
         }
-    ]
+    },
+    "forge_properties": {
+        "types": [0, 1],
+        "amounts": [10, 10]
+    }
 }
