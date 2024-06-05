@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract ERC1155ForgottenLandsV2 is
+contract ERC1155ForgottenLands is
 	Ownable, 
     ReentrancyGuard,
 	ERC1155("ipfs://QmVhPhAKHXpAg6DnfjV4oNxVtJyjTSLCd9JKXPhWvFgY1k/")
