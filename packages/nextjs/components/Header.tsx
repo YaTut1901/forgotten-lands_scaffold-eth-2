@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useCallback, useRef, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Logo from "./header/Logo";
 import { Bars3Icon, BugAntIcon } from "@heroicons/react/24/outline";
 import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
@@ -58,6 +58,7 @@ export const HeaderMenuLinks = () => {
 export const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const burgerMenuRef = useRef<HTMLDivElement>(null);
+
   useOutsideClick(
     burgerMenuRef,
     useCallback(() => setIsDrawerOpen(false), []),
@@ -88,15 +89,7 @@ export const Header = () => {
             </ul>
           )}
         </div>
-        <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
-          <div className="flex relative w-10 h-10">
-            <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-bold leading-tight">Scaffold-ETH</span>
-            <span className="text-xs">Ethereum dev stack</span>
-          </div>
-        </Link>
+        <Logo />
         <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">
           <HeaderMenuLinks />
         </ul>
