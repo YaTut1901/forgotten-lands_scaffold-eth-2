@@ -25,7 +25,7 @@ export const SwitchTheme = ({ className }: { className?: string }) => {
   if (!mounted) return null;
 
   return (
-    <div className={`flex space-x-2 h-8 items-center justify-center text-sm ${className}`}>
+    <div className={`relative flex space-x-2 h-8 items-center justify-center text-sm ${className}`}>
       <input
         id="theme-toggle"
         type="checkbox"
@@ -33,9 +33,9 @@ export const SwitchTheme = ({ className }: { className?: string }) => {
         onChange={handleToggle}
         checked={isDarkMode}
       />
-      <label htmlFor="theme-toggle" className={`swap swap-rotate ${!isDarkMode ? "swap-active" : ""}`}>
-        <SunIcon className="swap-on h-5 w-5" />
-        <MoonIcon className="swap-off h-5 w-5" />
+      <label htmlFor="theme-toggle" className={`absolute swap swap-rotate ${!isDarkMode ? "swap-active" : ""}`}>
+        <SunIcon className="swap-on h-3 w-3 -translate-x-4" />
+        <MoonIcon className="swap-off h-3 w-3 translate-x-2" />
       </label>
     </div>
   );
